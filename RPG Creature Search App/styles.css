@@ -1,0 +1,146 @@
+body {
+  background-color: #091d2f;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+}
+
+/* Content Container */
+
+.container {
+background-color: white;
+color: black;
+border: 1px solid grey;
+margin-top: 80px;
+margin: auto;
+width: 100%;
+}
+
+/* Searching Content */
+
+.search-div {
+text-align: center;
+margin: 2rem auto;
+width: 90%;
+max-width: 600px;
+}
+
+.search-div label {
+display: block;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+}
+
+.input-group {
+display: flex;
+justify-content: center;
+gap: 1rem;
+flex-wrap: wrap; /* makes it responsive */
+}
+
+#search-input {
+padding: 0.5rem 1rem;
+font-size: 1rem;
+width: 60%;
+max-width: 400px;
+border: 2px solid #ccc;
+border-radius: 0.5rem;
+}
+
+#search-button {
+padding: 0.5rem 1.5rem;
+font-size: 1rem;
+background-color: #0e1439;
+color: white;
+border: none;
+border-radius: 2rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+margin-top: 10px;
+}
+
+#search-button:hover {
+background-color: #182eb9;
+}
+
+#search-button:active {
+background-color: #edefff;
+color: black;
+}
+
+
+
+/* table */
+
+table {
+width: 100%;
+border-collapse: separate;
+border-spacing: 0.5rem; /* controls spacing between cells */
+}
+
+th, td {
+padding: 0.75rem 1rem;
+text-align: left;
+background-color: #1b0f4c; 
+color: white;
+border-radius: 0.25rem;
+font-size: 1rem;
+}
+
+th {
+font-weight: 600;
+}
+
+tbody tr td:first-child {
+min-width: 7rem; /* adds space to Base column */
+}
+
+tbody tr td:last-child {
+min-width: 4rem; /* adds space to Stats column */
+}
+
+/* Media Queries */
+
+@media (min-width: 1080px) {
+.container {
+  width: 500px;
+  margin-top: 60px;
+}
+}
+
+@media (max-width: 500px) {
+.container {
+  width: 330px;
+  margin-top: 60px;
+}
+}
+
+@media (min-width: 500px) {
+.container {
+  width: 330px;
+  margin-top: 60px;
+}
+}
+
+@media (max-width: 900px) {
+.container {
+  width: 330px;
+  margin-top: 60px;
+}
+}
+
+@media (max-width: 360px) {
+.container {
+  width: 300px;
+  margin-top: 60px;
+}
+}
+
+@media (max-width: 320px) {
+.container {
+  width: 270px;
+  margin-top: 60px;
+}
+}
